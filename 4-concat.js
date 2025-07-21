@@ -1,3 +1,6 @@
-const arg1=process.argv[2]; //first argument
-const arg2=process.argv[3];//second argument
-console.log(`${arg1 || 'Python'} is ${arg2 || 'fun'}`);
+#!/usr/bin/node
+
+const arg1 = process.argv[2] || 'Python';
+const arg2 = process.argv[3] || 'fun';
+
+console.log(`${arg1} ${arg2}`);
